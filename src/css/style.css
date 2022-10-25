@@ -1,0 +1,116 @@
+html body {
+  background-color: #104e8b;
+  margin: 0px;
+}
+
+.TitleHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: -10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-top: -30px;
+}
+
+.InputText {
+  background-color: rgba(66, 69, 73, 0.3);
+  width: 100%;
+  height: 70vh;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.7s ease;
+  resize: none;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.1333333333);
+}
+
+textarea::-moz-placeholder {
+  color: black;
+  font-weight: lighter; /*hexcode to change color of placeholder */
+}
+
+textarea:-ms-input-placeholder {
+  color: black;
+  font-weight: lighter; /*hexcode to change color of placeholder */
+}
+
+textarea::placeholder {
+  color: black;
+  font-weight: lighter; /*hexcode to change color of placeholder */
+}
+
+.OutPut {
+  width: 100%;
+  background-color: rgba(166, 178, 194, 0.3);
+  border-radius: 5px;
+  line-height: 5px;
+  margin-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 10px;
+  transition: all 0.7s ease;
+  box-shadow: 0 0 5px rgba(204, 204, 204, 0.1333333333);
+  overflow: scroll;
+}
+
+.Converter {
+  margin: 10px;
+  background-color: rgba(166, 178, 194, 0.3);
+  border-radius: 5px;
+  margin-top: -15px;
+  padding: 10px;
+  overflow: scroll;
+  height: 20vh;
+}
+
+.DarkMode {
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.DarkMode:hover {
+  transform: translateY(-8px);
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1333333333);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2666666667);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #104e8b;
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: rgba(16, 78, 139, 0.1333333333);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(255, 255, 255, 0.2666666667);
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
